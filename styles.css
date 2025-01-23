@@ -1,0 +1,71 @@
+body {
+    background-color: black;
+}
+
+header {
+    display: flex;
+    height: 160px; 
+    justify-content: space-between; 
+    align-items: center;
+}
+
+#logoImg {
+    height: 96px;
+    width: 128px;
+    margin-left: 20px;
+}
+
+#navBar a{
+    margin: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+#navBar a:hover {
+    text-decoration: underline;
+}
+
+#orderBtn {
+    height: 64px;
+    width: 128px;
+    margin-right: 20px;
+    border-radius: 30px;
+    color: white;
+    background-color: red;
+}
+
+#row-1 {
+    display: flex;
+}
+
+#col-1 {
+    color:white;
+    height: inherit;
+    width: 50%;
+}
+
+#col-1 h1{
+    font-size: 80px;
+}
+
+#col-2 {
+    width: 50%;
+    height: inherit;
+}
+
+#col-2 img{
+    height: 350px;
+    width: 350px;
+    padding: 100px;
+}
+
+#CatalogBtn {
+    height: 64px;
+    width: 128px;
+    margin-right: 20px;
+    border-radius: 30px;
+    color: white;
+    background-color: red;
+}
